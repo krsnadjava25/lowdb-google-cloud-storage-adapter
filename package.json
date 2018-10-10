@@ -1,11 +1,12 @@
 {
   "name": "lowdb-google-cloud-storage-adapter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "jest",
-    "run": "babel-node test.js"
+    "run": "babel-node test.js",
+    "build": "babel src -d lib --ignore  **/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -36,7 +37,6 @@
   },
   "homepage": "https://github.com/saleehk/lowdb-google-cloud-storage-adapter#readme",
   "dependencies": {
-    "@google-cloud/storage": "^2.0.3",
-    "lowdb": "^1.0.0"
+    "@google-cloud/storage": "^2.0.3"
   }
 }

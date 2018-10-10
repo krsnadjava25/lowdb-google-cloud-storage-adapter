@@ -49,10 +49,8 @@ export default class GcloudAdapter {
   }
 
   async write(data) {
-    console.log('--writing--');
-
     const contents = this.serialize(data);
-    console.log(contents);
+
     return this.file.save(contents, {
       // Support for HTTP requests made with `Accept-Encoding: gzip`
       gzip: true,
