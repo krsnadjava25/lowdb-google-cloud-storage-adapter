@@ -1,12 +1,14 @@
 {
   "name": "lowdb-google-cloud-storage-adapter",
-  "version": "0.0.2",
+  "version": "0.0.6",
   "description": "",
   "main": "lib/index.js",
   "scripts": {
     "test": "jest",
     "run": "babel-node test.js",
-    "build": "babel src -d lib --ignore  **/*.test.js"
+    "build": "babel src -d lib --ignore  **/*.test.js",
+    "prepublish": "npm run build",
+    "publish": "npm publish"
   },
   "repository": {
     "type": "git",

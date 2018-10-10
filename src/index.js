@@ -1,5 +1,8 @@
 import { Storage } from '@google-cloud/storage';
 
+require('babel-polyfill');
+
+
 const stringify = obj => JSON.stringify(obj, null, 2);
 
 export default class GcloudAdapter {
