@@ -1,6 +1,6 @@
 {
   "name": "@krsnadjava25/lowdb-google-cloud-storage-adapter",
-  "version": "0.0.6",
+  "version": "0.1.0",
   "description": "This let you to create and use a lowDB source located on Google cloud storage",
   "main": "lib/index.js",
   "scripts": {
